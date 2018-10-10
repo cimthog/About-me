@@ -1,0 +1,179 @@
+body {
+	margin:0;
+}
+
+/****** Navigation Styling *******/
+
+nav {
+	background: lightblue;
+}
+
+.name, .menu {
+	display: inline-block;
+}
+
+.name {
+	margin: 20px;
+}
+
+.menu {
+	float: right;
+	margin: 20px;
+}
+
+.menu ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-right:30px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 30px, 10px, 20px,10px;
+}
+
+.menu ul li a:hover {
+	background: grey;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+/******** Header Styling *********/
+
+header {
+	background-image: url('../images/sky_background.png');
+	height: 200px;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+header p {
+	margin: 0;
+	color: white;
+	font-weight: bold;
+}
+
+.header-text {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.btn-work, .btn-contact {
+	font-weight: bold;
+	display: inline-block;
+	padding:10px;
+	border-radius: 20px;
+}
+
+.btn-work {
+	background: lightblue;
+	color: white;	
+	margin-right:20px;
+	
+}
+
+.btn-work:hover {
+	background: white;
+	color: black;
+}
+
+.btn-contact {
+	background: white;
+	color: black;
+	margin-left: 20px;
+}
+.btn-contact:hover {
+	background: lightblue;
+	color: white;
+}	
+
+	/***** About Me Styling *****/
+
+.about-me{
+	width: 100%;
+	background: #e2e2e2;
+}
+
+.about-me:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.about-me h2{
+	margin: 0;
+	color: black;
+	text-align: center;
+	position: relative;
+}
+.about-me h2:after {
+	content: '';
+	position: absolute;
+	width: 80px;
+	height: 2px;
+	margin-left: -40px;
+	left: 50%;
+	bottom: 0px;
+	background-color: black;
+}
+
+.about-me .col-left, .about-me .col-right {
+	float: left;
+
+}
+
+.about-me .col-left img {
+	max-width: 100%;
+	margin-top: 10px;
+	margin-left: 15%;
+	height: 350px;
+}
+
+.about-me .col-right {
+	margin-left: 10%;
+}
+
+/********** Skills Section Styling *****/
+
+.my-skills {
+	background-color: lightblue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.my-skills h2 {
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	color: white;
+	font-weight: bold;
+}
+
+.my-skills h2:after {
+	content: '';
+	position: absolute;
+	width: 80px;
+	height: 2px;
+	margin-left: -40px;
+	left: 50%;
+	bottom: 0px;
+	background-color: white;
+}
+
+.my-skills:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.my-skills .skill-left, .my-skills .skill-center, .my-skills .skill-right {
+	width: 33.33333333333333%;
+	display: inline-block;
+	float: left;
+}
